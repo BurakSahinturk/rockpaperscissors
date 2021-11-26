@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+         <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="computer-label">comp</div>
+        <span id="user-score">0</span> - <span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock, Rock crushes Scissors, Scissors cut paper</p>
+    </div>
+
+    <div class="choices">
+        <p class="action-message">Make your move</p>
+        <div class="choice" id="Rock">
+            <img src="images/rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="images/paper.png" alt="Paper">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="images/scissors.png" alt="Scissors">
+        </div>
+        
+    </div>
+    <div class="action-message">
+        The computer selects:
+    </div>
+    <div id="comp-choice" class="comp-choice">
+    </div>
+    
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
